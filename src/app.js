@@ -1,12 +1,18 @@
 import React from "react";
-import {Button} from "antd";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
 
+import WrapLogin from "./views/login/login";
+import Admin from "./views/admin/admin";
 export default class App extends React.Component{
+
     render() {
         return(
-            <div>
-               <Button type='primary' >hello</Button>
-            </div>
+           <BrowserRouter>
+               <Switch>
+                   <Route path='/login' component={WrapLogin}/>
+                   <Route path='/' component={Admin}/>
+               </Switch>
+           </BrowserRouter>
         )
     }
 }

@@ -1,0 +1,21 @@
+.header{
+    height: 80px;
+    background-color: white;
+}
+.header-top{
+    padding-right: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    border-bottom: 1px solid green;
+}
+.header-bottom{
+    /*position: relative;*/
+    text-align: center;
+    width: 15%;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+
+    /*background-color: greenyellow;*/
+}
