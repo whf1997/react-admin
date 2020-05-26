@@ -67,7 +67,6 @@ import menuList from "../../config/menuConfig";
                     title = cItem.title
                 }
             }
-
         })
         return title
     }
